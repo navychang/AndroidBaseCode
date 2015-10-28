@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_sys_bg"
+    android:orientation="vertical"
+    android:paddingBottom="13dip"
+    android:paddingLeft="5dip"
+    android:paddingRight="5dip"
+    android:paddingTop="13dip" >
+
+    <TextView
+        android:id="@+id/titleView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/dialog_title"
+        android:textColor="@color/blue"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/messageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:textColor="@color/blue"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:id="@+id/btn_pane"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/okBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_marginRight="2.5dip"
+            android:layout_weight="1.0"
+            android:background="@color/blue"
+            android:text="@string/ok"
+            android:textColor="@color/color_text_color"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/cancelBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_marginLeft="2.5dip"
+            android:layout_weight="1.0"
+            android:background="@color/color_text_color"
+            android:text="@string/cancel"
+            android:textColor="@color/blue"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>

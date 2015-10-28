@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_checked="true"><layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+            <item><shape android:shape="rectangle">
+
+                    <!-- 实心 -->
+                    <solid android:color="@color/color_assist_text_orange" />
+                    <!-- 圆角 -->
+                    <corners android:radius="6dp" />
+                </shape></item>
+            <item android:right="8dp"><shape android:shape="rectangle">
+                    <solid android:color="@color/color_assist_text_orange" />
+                </shape></item>
+        </layer-list></item>
+    <item android:state_selected="true"><layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+            <item><shape android:padding="1dp" android:shape="rectangle">
+
+                    <!-- 实心 -->
+                    <solid android:color="@color/color_assist_text_orange" />
+                    <!-- 圆角 -->
+                    <corners android:radius="6dp" />
+                </shape></item>
+            <item android:right="8dp"><shape android:shape="rectangle">
+                    <solid android:color="@color/color_assist_text_orange" />
+                </shape></item>
+        </layer-list></item>
+    <item android:state_checked="false"><shape android:shape="rectangle">
+            <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+                <item><shape android:shape="rectangle">
+
+                        <!-- 实心 -->
+                        <solid android:color="@color/color_text_color" />
+                        <!-- 圆角 -->
+                        <corners android:radius="6dp" />
+                    </shape></item>
+                <item android:right="8dp"><shape android:shape="rectangle">
+                        <solid android:color="@color/color_text_color" />
+                    </shape></item>
+            </layer-list>
+        </shape></item>
+
+</selector>

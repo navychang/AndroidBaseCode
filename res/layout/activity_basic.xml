@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/w_h_full" >
+
+    <include
+        android:id="@+id/tittleBar"
+        layout="@layout/top_bar_view" />
+
+    <RelativeLayout
+        android:id="@+id/common"
+        style="@style/w_h_full"
+        android:layout_below="@+id/tittleBar"
+        android:background="@color/color_assist_text_gray" >
+    </RelativeLayout>
+
+</RelativeLayout>

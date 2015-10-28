@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tittleBar"
+    style="@style/top_bar_style" >
+
+    <!-- middle tittle -->
+
+    <TextView
+        android:id="@+id/top_title"
+        style="@style/top_bar_title_style" />
+    <!-- 右边为图片按钮 -->
+
+    <ImageButton
+        android:id="@+id/top_right_img"
+        style="@style/top_bar_rightbtn_style"
+        android:background="@null"
+        android:contentDescription="@null" />
+    <!-- right bar -->
+
+    <TextView
+        android:id="@+id/top_right_tv"
+        style="@style/top_bar_rightbtn_style" />
+
+    <!-- 左边为图片按钮 -->
+
+    <ImageButton
+        android:id="@+id/top_left_img"
+        style="@style/top_bar_leftbtn_style"
+        android:background="@null"
+        android:contentDescription="@null"
+        android:src="@drawable/icon_back" />
+    <!-- left bar  图片文字 -->
+
+    <TextView
+        android:id="@+id/top_left_tv"
+     
+        style="@style/top_bar_leftbtn_style" />
+
+</RelativeLayout>

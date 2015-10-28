@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 文字颜色 白色 -->
+    <color name="color_text_color">#ffffff</color>
+    <!-- 标题栏背景 -->
+    <color name="color_titlebar_bg">#f4f4f4</color>
+    <!-- 标签栏背景 -->
+    <color name="color_tab_bg">#f0f0f0</color>
+    <!-- 背景 -->
+    <color name="color_sys_bg">#eaeaea</color>
+    <!-- 分割线 辅助线 -->
+    <color name="color_view_line">#cccccc</color>
+    <!-- 辅助文字_浅灰色 -->
+    <color name="color_assist_text_gray">#a0a0a0</color>
+    <!-- 强调文字 -->
+    <color name="color_stress_text">#ff9000</color>
+    <!-- 辅助文字_橙 -->
+    <color name="color_assist_text_orange">#f96f00</color>
+    <!-- 辅助文字_ 蓝 -->
+    <color name="color_assist_text_blue">#01b29b</color>
+    <!-- 辅助文字_绿 -->
+    <color name="color_assist_text_green">#19b04b</color>
+    <!-- 辅助文字_ 黄 -->
+    <color name="color_assist_text_yellow">#d78e01</color>
+    <!-- 黑色 -->
+    <color name="color_text_black">#474747</color>
+    <color name="color_text_gray">#6D6D6D </color>
+    <color name="login_editext_hint">#FAD3AB</color>
+    <color name="listview_item_normal">#eef0ed</color>
+    <color name="listview_item_pressed">#d4d4d4</color>
+    <color name="dialog_bg">#E8F8FF</color>
+    <!-- datapick -->
+    <color name="black_gray">#515151</color>
+    <color name="gray">#a5a5a5</color>
+    <color name="blue">#36c6ee</color>
+    <color name="green">#7ddb9d</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+</resources>

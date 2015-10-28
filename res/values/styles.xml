@@ -1,0 +1,123 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="top_bar_style">
+        <item name="android:background">@drawable/topbar</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+    </style>
+
+    <style name="top_bar_title_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textColor">@color/color_text_color</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="top_bar_rightbtn_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:padding">8dip</item>
+        <item name="android:paddingBottom">5dip</item>
+        <item name="android:paddingRight">18dip</item>
+        <item name="android:paddingTop">5dip</item>
+        <item name="android:textColor">@color/color_text_color</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="top_bar_leftbtn_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:paddingBottom">5dip</item>
+        <item name="android:paddingLeft">18dip</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingTop">5dip</item>
+    </style>
+    <!-- 加载dialog -->
+    <style name="dialog">
+        <item name="android:textAppearance">@android:style/TextAppearance.DialogWindowTitle</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+    <!-- 没有滚动的listView 样式 -->
+    <style name="noscrolllistview_style" parent="@style/w_h_full">
+        <item name="android:divider">@color/color_view_line</item>
+        <item name="android:dividerHeight">0.5dp</item>
+        <item name="android:background">@color/color_sys_bg</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+    <!-- 分割线的style -->
+    <style name="color_view_line">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/color_view_line</item>
+    </style>
+    <!-- RidioButton 的样式 -->
+    <style name="nav_ridiobutton_style">
+        <item name="android:textSize">@dimen/space_size_14</item>
+        <item name="android:textColor">@drawable/radio_textcolor_selector</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/radio_textbg_selector</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <!-- RidioButton 的样式 -->
+    <style name="nav_ridiobutton_style_right_corner">
+        <item name="android:textSize">@dimen/space_size_14</item>
+        <item name="android:textColor">@drawable/radio_textcolor_selector</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/radiobutton_rightcorner_selector</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <!-- RidioButton 左边圆角的样式 -->
+    <style name="nav_ridiobutton_style_left_corner">
+        <item name="android:textSize">@dimen/space_size_14</item>
+        <item name="android:textColor">@drawable/radio_textcolor_selector</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/radiobutton_leftcorner_selector</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <!-- RidioGroup 的样式 -->
+    <style name="nav_top_radio_group_style" parent="@style/w_full_h_wrap">
+        <item name="android:background">@drawable/order_tab_bg</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:layout_marginLeft">10dip</item>
+        <item name="android:layout_marginRight">10dip</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">1dp</item>
+    </style>
+
+</resources>

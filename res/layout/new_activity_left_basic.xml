@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.lixh.basecode.widget.ResideMenu.DragLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/slide_menu"
+    style="@style/w_h_full"
+    android:background="@drawable/sys_bg"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:id="@+id/main_left"
+        style="@style/w_h_full"
+        android:layout_width="250dp"
+        android:orientation="vertical"
+        android:padding="8dp" />
+
+    <com.lixh.basecode.widget.ResideMenu.MainContentLayout
+        android:id="@+id/mainContent"
+        style="@style/w_h_full" >
+
+        <LinearLayout
+            android:id="@+id/common"
+            style="@style/w_h_full" >
+        </LinearLayout>
+    </com.lixh.basecode.widget.ResideMenu.MainContentLayout>
+
+</com.lixh.basecode.widget.ResideMenu.DragLayout>

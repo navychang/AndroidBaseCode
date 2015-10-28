@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 间距的定义 -->
+    <dimen name="space_size_14">14dp</dimen>
+    <dimen name="space_size_16">16dp</dimen>
+    <dimen name="space_size_18">18dp</dimen>
+    <dimen name="space_size_8">8dp</dimen>
+    <dimen name="space_size_10">10dp</dimen>
+    <dimen name="space_size_12">12dp</dimen>
+    <dimen name="space_size_6">6dp</dimen>
+    <dimen name="space_size_15">15dp</dimen>
+    <!-- 文字的字体大小size -->
+
+</resources>
